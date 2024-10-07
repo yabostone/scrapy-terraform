@@ -1,3 +1,10 @@
 1.terraform实际上是IaC设施。需要Python和bash shell 进行辅助，才能比较好的实现所需功能，terraform实际上部分承担了aws-cli，aliyun等等的功能。
 2.所以需要python来完成terraform的设置和调用。bash shell 和powershell用来初始化环境。
 
+## 流程
+1. 构建terraform环境，git中设置好shell命令，构建。
+2. terraform使用竞价排名的Iac设置，设置好国内还是国外。
+3.竞价实例不支持windows，构建基础的vnc的桌面环境。
+4.构建selenium的环境。
+5.或者构建playwright环境，没有使用scrapy抓取。
+6.支持安卓等，这个只能本地化。
